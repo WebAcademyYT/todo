@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List | Web Academy</title>
+
+     <!-- Google FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+ 
+     <!-- Font Awesome icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!-- Moment Librarie -->
+     <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="background">
+            <div class="image-darker">
+                <h3 id="date"></h3>
+            </div>
+        </div>
+
+        <form id="todo">
+            <div class="form-inputs">
+                <input type="text" id="todo-input" name="todo" autocomplete="off">
+                <button type="submit" id="submit-btn"><i class="fas fa-plus"></i></button>
+            </div>
+        </form>
+
+        <div class="todo-list-row" id="todo-row"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
